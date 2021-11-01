@@ -1,6 +1,6 @@
 # CI-AB-FGM
 This repository contains code to reproduce results from the paper:
-**Adversarial example generation with AdaBelief Optimizer and Crop Invariance**
+**Adversarial example generation with AdaBelief Optimizer and Crop Invariance**. This paper has been preprinted as preprint in arXiv with the according link: https://arxiv.org/abs/2102.03726
 
 ## REQUIREMENTS
 - Environment Anaconda
@@ -16,10 +16,13 @@ ABI-FGM and CIM can be readily integrated to build a strong gradient-based attac
 Moreover, our method can also be naturally combined with other gradient-based attack methods to build a more robust attack to generate more transferable adversarial examples against the defense models.
 
 ### Dataset
-We use a subset of ImageNet validation set containing 1000 images, most of which are correctly classified by those models.
+We use a subset of ImageNet validation set containing 1000 images, most of which are correctly classified by those models. In order to better verify the advantages and effectiveness of the proposed method under the same preconditions and unified standards, this paper selects the same dataset as **MI-FGSM** [1]. The download link of the data set is as follows:  http://ml.cs.tsinghua.edu.cn/~yinpeng/adversarial/dataset.zip. You can alternatively use the NIPS 2017 competition official dataset. The download link is https://www.kaggle.com/c/nips-2017-non-targeted-adversarial-attack/data.
 
 ### Models
 We use the ensemble of seven models in our submission, many of which are adversarially trained models. The models can be downloaded in (https://github.com/tensorflow/models/tree/master/research/slim, https://github.com/tensorflow/models/tree/archive/research/adv_imagenet_models).
+
+## Acknowledgements
+[1] Dong, Y., Liao, F., Pang, T., Su, H., Zhu, J., Hu, X., and Li, J. (2018). Boosting adversarial attacks with momentum. 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 495 9185–9193.
 
 
 
