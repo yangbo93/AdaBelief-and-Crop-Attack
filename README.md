@@ -1,6 +1,6 @@
 # CI-AB-FGM
 This repository contains code to reproduce results from the paper:
-**Adversarial example generation with AdaBelief Optimizer and Crop Invariance**. This paper has been preprinted as preprint in arXiv with the according link: https://arxiv.org/abs/2102.03726.
+**Adversarial example generation with AdaBelief Optimizer and Crop Invariance**. This paper has been accepted in APPLIED INTELLIGENCE  with the according link: https://link.springer.com/article/10.1007/s10489-022-03469-5.
 
 ## REQUIREMENTS
 - Environment Anaconda
